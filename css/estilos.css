@@ -1,0 +1,80 @@
+* { 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+p { font-family: 'Roboto', sans-serif;
+    margin-bottom:auto !important;
+}
+
+h1 {font-family: 'Space Grotesk', sans-serif}
+h2 {font-family: 'Space Grotesk', sans-serif}
+h3 {font-family: 'Space Grotesk', sans-serif}
+h4 {font-family: 'Space Grotesk', sans-serif}
+h5 {font-family: 'Space Grotesk', sans-serif}
+h6 {font-family: 'Space Grotesk', sans-serif}
+
+/* No funciona, la idea es cambiar el ícono del nav 
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../imagen/nav.svg) !important;  
+}
+*/
+
+
+.ColorBlanco { 
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #0E0916 !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+    font-weight: 600 !important;
+    color: #1D5BE6 !important;
+    background-color: #ffffff !important;  
+}
+
+.accordion-button {
+    padding: 1rem 0rem !important;
+}
+ 
+
+.EspaciadorAlto {
+    height: 60px;
+}
+
+
+.ImagenLogo {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+
+.FullAlto {
+    height: 260px;
+    display: flex;
+    align-items: center;
+    background-image: url(../imagen/fondo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+footer { background-color: #0E0916;
+    color: white;
+    height: 90px;
+    display: flex;
+    align-items: center;
+ }
+
+  
+@media (min-width: 1200px) 
+{ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin-left: 3rem;
+}
